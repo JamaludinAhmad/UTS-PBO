@@ -11,7 +11,9 @@ public class SetengahLingkaran implements Lingkaran{
     
     @Override
     public void hitungLuas() {
-        hasil = (PANJANG * LEBAR) - ((3.14 * LEBAR * LEBAR) / 2);
+        double luas1 = (PANJANG / 2 * LEBAR) - (Math.PI * (PANJANG / 2) * (PANJANG / 2) / 4);
+        
+        hasil = 2 * luas1;
     }
     
     @Override
