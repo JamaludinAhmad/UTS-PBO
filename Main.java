@@ -1,27 +1,15 @@
 
-
-
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author user
- */
-
 import com.lingkaran.*;
 
 public class Main {
     
     public static void main(String[] args) {
-        Lingkaran x = new SetengahLingkaran();
-        LuasSetengah jamal = new LuasSetengah(x);
+        Lingkaran circle_satu = new SetengahLingkaran();
+        LuasSetengah luassatu = new LuasSetengah(circle_satu);
         
+        luassatu.hitung();
+        luassatu.tampilkan();
         
-        
-        
+     
     }
 }

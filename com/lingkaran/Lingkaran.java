@@ -9,8 +9,9 @@ package com.lingkaran;
  * @author user
  */
 public interface Lingkaran {
-    int panjang = 12;
-    int lebar = 7;
+    int PANJANG = 12;
+    int LEBAR = 7;
     
     void hitungLuas();
+    void tampilkanLuas();
 }
